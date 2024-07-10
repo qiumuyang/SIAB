@@ -1,0 +1,18 @@
+# arguments for dataset
+dataset: mnms
+data_root: /path/to/mnms
+n_domains: 4
+n_channels: 1
+n_classes: 4
+image_size: 288
+unlabel_validation: false # whether unlabeled data has labels for validation
+
+# arguments for training
+epochs: 100
+iters: 400
+batch_size: 18
+
+num_global_in: 4
+num_random: 4
+p: 0.8
+init_bn_weight: 0.9999

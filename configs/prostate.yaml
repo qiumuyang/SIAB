@@ -1,0 +1,19 @@
+# arguments for dataset
+dataset: prostate
+data_root: /path/to/Prostate
+n_domains: 6
+n_channels: 3
+n_classes: 2
+image_size: 288
+unlabel_validation: true # whether unlabeled data has labels for validation
+
+# arguments for training
+epochs: 100
+iters: 200
+batch_size: 10
+
+num_global_in: 4
+num_random: 4
+p: 0.8
+init_bn_weight: 0.9999
+

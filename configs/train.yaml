@@ -1,0 +1,8 @@
+optimizer: adamw
+lr: 0.001
+
+conf_thresh: 0.95 # confidence threshold for pseudo label
+rampup: 400 # rampup period for unlabeled weight
+balanced: False
+
+weight_b: 0.2

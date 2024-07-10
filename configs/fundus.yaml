@@ -1,0 +1,17 @@
+# arguments for dataset
+dataset: fundus
+data_root: /path/to/Fundus
+n_domains: 4
+n_channels: 3
+n_classes: 3 # background, cup, disc
+image_size: 256
+unlabel_validation: true # whether unlabeled data has labels for validation
+
+# arguments for training
+epochs: 100
+iters: 200
+batch_size: 12
+
+num_global_in: "all"
+num_random: 6
+p: 0.8
