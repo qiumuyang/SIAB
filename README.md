@@ -1,5 +1,5 @@
 # SIAB
-Implementation of the paper *The Devil is in the Statistics: Mitigating and Exploiting Statistics Difference for Generalizable Semi-supervised Medical Image Segmentation*.
+Implementation of the paper [*The Devil is in the Statistics: Mitigating and Exploiting Statistics Difference for Generalizable Semi-supervised Medical Image Segmentation*](https://arxiv.org/abs/2407.11356).
 
 ## Getting Started
 
